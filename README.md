@@ -20,8 +20,9 @@ This repository provides a structured way to work through those questions.
 
 It is designed to help teams move from assumptions to clear decisions.
 
-[Markdown Checklist](/checklist.md)
-[Excel Checklist](/checklist.xlsx)
+[Markdown Checklist](/SovereignChecklist.md)
+
+[Excel Checklist](/SovereignChecklist.xlsx)
 
 ---
 
