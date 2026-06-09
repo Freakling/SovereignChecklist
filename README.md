@@ -2,7 +2,7 @@
 
 A practical self-assessment for understanding sovereignty across platforms, products, and workloads.
 
-This is not a theoretical framework. It is a working checklist you can use with real teams, real systems, and real constraints.
+You can use this checklist with real teams, real systems, and real constraints.
 
 ---
 
@@ -59,7 +59,8 @@ It is lost in things like:
 - Vendor functionality you cannot verify  
 
 If you do not account for these, sovereignty becomes an assumption rather than something you can defend.
-It can even be used to control your cost forecasts, there have been many instances where vendors change cost models which have significant impact on companies tech stack.
+
+The checkist can even be used to control your cost vulnerabilities, there have been many instances where vendors change cost models which have significant impact on companies tech stack.
 
 ---
 
@@ -76,9 +77,9 @@ For each question, assign one of:
 
 Anything that is not fully controlled is a dependency.
 
-### Think in layers, not binary states
+**Think in layers, not binary states**
 
-A dependency is not just “good” or “bad”.
+A dependency is not just "good" or "bad".
 
 Ask two additional questions for each one:
 
@@ -87,7 +88,7 @@ Ask two additional questions for each one:
 
 Losing something for six hours is a different scenario than losing it permanently.
 
-### After first iteration
+**After first iteration**
 Once you have gone through the full checklist:
 
 1. Identify all:
@@ -130,7 +131,7 @@ They select two dependencies for deeper analysis:
 
 ---
 
-### Example 2 – Recursive assessment (CI/CD)
+### Example 1.1 – Recursive assessment (CI/CD)
 
 The team runs the checklist on the CI/CD platform.
 
@@ -153,7 +154,7 @@ Outcome:
 - Risk is understood in terms of time and ownership, not just control
 ---
 
-### Example 3 – Recursive assessment (AI workload)
+### Example 1.2 – Recursive assessment (AI workload)
 
 The same approach is applied to AI.
 
@@ -173,7 +174,7 @@ Outcome:
 
 ---
 
-### Example 4 – Value chain mapping
+### Example 2 – Value chain mapping
 
 A more mature team maps the entire chain:
 
@@ -194,7 +195,7 @@ Outcome:
 
 ---
 
-### Example 5 – Fire drill applied recursively
+### Example 3 – Fire drill applied recursively
 
 The team performs a disconnection test.
 
