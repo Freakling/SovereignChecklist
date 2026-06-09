@@ -22,7 +22,7 @@ It is designed to help teams move from assumptions to clear decisions.
 
 [Markdown Checklist](/SovereignChecklist.md)
 
-[Excel Checklist](/SovereignChecklist.xlsx)
+[Original Excel Checklist - NOT MAINTAINED!](/SovereignChecklist.xlsx)
 
 ---
 
@@ -76,6 +76,18 @@ For each question, assign one of:
 
 Anything that is not fully controlled is a dependency.
 
+### Think in layers, not binary states
+
+A dependency is not just “good” or “bad”.
+
+Ask two additional questions for each one:
+
+- How long can we tolerate losing it?
+- Who carries the risk when it fails?
+
+Losing something for six hours is a different scenario than losing it permanently.
+
+### After first iteration
 Once you have gone through the full checklist:
 
 1. Identify all:
@@ -120,18 +132,25 @@ They select two dependencies for deeper analysis:
 
 ### Example 2 – Recursive assessment (CI/CD)
 
-The team runs the checklist again, but this time focused only on the CI/CD platform.
+The team runs the checklist on the CI/CD platform.
 
 New findings:
 - Build agents are externally managed  
-- Pipeline execution depends on license validation  
-- Artifact storage is not fully controlled  
-- Vendor controls feature availability  
+- Pipeline depends on license validation  
+- Artifact storage not fully controlled  
+
+They add two more variables:
+
+- CI/CD outage tolerance: ~4 hours  
+- Risk owner: External vendor  
+
+Comments: Short outages are acceptable, permanent loss is not.  
+
+_The team decides to keep the dependency, but introduces fallback deployment mechanisms._
 
 Outcome:
-- What was previously a single dependency is now multiple, clearer risks  
-- The team identifies which parts to accept and which to redesign  
-
+- The dependency is accepted, but no longer unmanaged  
+- Risk is understood in terms of time and ownership, not just control
 ---
 
 ### Example 3 – Recursive assessment (AI workload)
