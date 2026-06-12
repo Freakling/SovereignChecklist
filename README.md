@@ -1,8 +1,10 @@
 # SovereignChecklist
 
+Move from assumptions to facts.
+
 A practical self-assessment for understanding sovereignty across platforms, products, and workloads.
 
-You can use this checklist with real teams, real systems, and real constraints.
+Use this checklist with real teams, real systems, and real constraints.
 
 ---
 
@@ -18,8 +20,6 @@ In practice, sovereignty comes down to three things:
 
 This repository provides a structured way to work through those questions.
 
-It is designed to help teams move from assumptions to clear decisions.
-
 [Markdown Checklist](/SovereignChecklist.md)
 
 [Original Excel Checklist - NOT MAINTAINED!](/SovereignChecklist.xlsx)
@@ -28,9 +28,7 @@ It is designed to help teams move from assumptions to clear decisions.
 
 ## What it covers
 
-The checklist deliberately goes beyond infrastructure.
-
-It looks at the full value chain:
+The checklist deliberately goes beyond infrastructure and looks at the full value chain:
 
 - Control plane and infrastructure  
 - Identity and access  
@@ -58,9 +56,9 @@ It is lost in things like:
 - Identity systems you cannot fully govern  
 - Vendor functionality you cannot verify  
 
-If you do not account for these, sovereignty becomes an assumption rather than something you can defend.
+If you do not account for the full supply-chain, control and reliability becomes an assumption.
 
-The checkist can even be used to control your cost vulnerabilities, there have been many instances where vendors change cost models which have significant impact on companies tech stack.
+The checkist can be used to control your cost vulnerabilities, there have been many instances where vendors change cost models which have significant impact on companies tech stack.
 
 ---
 
